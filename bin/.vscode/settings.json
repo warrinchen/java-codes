@@ -3,5 +3,37 @@
         ".",
         "competition"
     ],
-    "java.project.outputPath": "bin"
+    "java.project.outputPath": "bin",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "local-db-con",
+            "group": "local",
+            "username": "root",
+            "password": "root",
+            "connectionTimeout": 5000,
+            "database": "test"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "local",
+            "group": "win",
+            "database": "p4",
+            "username": "root",
+            "password": "root",
+            "connectionTimeout": 5000
+        }
+    ]
 }
