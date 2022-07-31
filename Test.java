@@ -13,7 +13,8 @@ public class Test {
         // for (int[] two : ps) {
         //     System.out.println(two[0]+","+two[1]);
         // }
-        System.out.println(new Solution().minimumLines(ps));
+        // System.out.println(new Solution().minimumLines(ps));
+        System.out.println("hello ubuntu");
     }
     
 
